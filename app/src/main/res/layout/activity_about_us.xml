@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                tools:context="com.zsg.jx.lightcontrol.ui.AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"/>
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_logo"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    深圳市集贤科技有限公司，专注于无线通讯技术领域产品与解决方案的研发、生产、销售、运营、服务，在底层驱动、通信协议、分布式云技术、软件应用等方向具有丰富的技术经验，为智能穿戴、无线通讯、无线数据交换、和完整物联解决方案（云服务+智能终端应用程序）提供全套解决方案的高新技术企业。
+    公司凭借多年的上游射频芯片分销经验和技术积累，致力于提供高性能、高品质的无线通讯类产品和完整的物联解决方案。研发核心团队成员均有10年以上无线通讯类产品的开发经验，拥有领先的产品开发、测试平台，高标准的供应链及制造平台。公司在香港、北京、上海等地设有分支机构，并配备相应的技术支持人员，在深圳南山高新技术产业园设有独立的研发中心。
+    自成立起，通过公司多位资深软硬件工程师的集体研发和努力，公司成功开发了GPRS数传、2.4G智能控制系列、蓝牙数传系列、蓝牙音频系列、低功耗蓝牙可穿戴、低功耗Wi-Fi透传、4G LTE数传等多个系列模组产品及相关产品的解决方案，并在蓝牙无线连接、硬件设计、软件协议设计、省电等开发应用方面居于行业领先水平。产品广泛应用于智能穿戴、智能家电、手持移动设备、医疗和工业控制等领域。
+    客户是企业生存的基础，是我们重要的财富。我们立志为客户提供最佳的产品和服务，赢得客户的满意和认可。目前公司的产品已成功进入全球顶级品牌企业供应链中(例如： MOTO、TCL、OPPO、VIVO、360、COOLPAD、TMALL等)。
+    任人唯贤、协作高效是集贤的制胜法宝；公司强调简单、透明的信息沟通，发扬竞争、互助的团队精神；营造开放、信任的文化氛围，尊重个人的灵活创新，倡导员工的忠诚奉献，并分享成功。"
+                android:textColor="@color/viewfinder_mask"
+                android:textSize="17sp"/>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:textColor="@color/litt_black"
+            android:scaleType="fitXY"
+            android:layout_width="400dp"
+            android:layout_height="650dp"
+            android:id="@+id/image_about"
+            android:adjustViewBounds="true"
+            android:src="@drawable/about_gy" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/litt_black"
+            android:id="@+id/text_version"
+            android:layout_below="@+id/image_about"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>-->
+</RelativeLayout>
